@@ -1,0 +1,17 @@
+{
+    "name": "fogito/corepro",
+    "description": "composer require fogito/core",
+    "type": "library",
+    "license": "Fogito LLC",
+    "autoload": {
+        "psr-4": {
+            "Fogito\\": "src/"
+        }
+    },
+    "authors": [],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "fogito/core": "^1.1"
+    }
+}

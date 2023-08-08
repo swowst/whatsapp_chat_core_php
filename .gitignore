@@ -1,0 +1,7 @@
+example/vendor
+composer.lock
+nginx_confs
+.idea
+.vscode
+/vendor
+/example/composer.json

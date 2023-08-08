@@ -1,0 +1,17 @@
+//BOARD INDEXES
+
+//test clear later  ---------
+
+db.boards.dropIndexes()
+db.boards.createIndex( {title : 1 } )
+db.boards.createIndex( {users : 1 } )
+db.boards.createIndex( {is_completed : 1 } )
+db.boards.createIndex( {is_archived : 1 } )
+db.boards.createIndex( {is_deleted : 1 } )
+db.boards.createIndex( {created_at : 1 } )
+db.boards.createIndex( { business_type : 1 } )
+db.boards.createIndex( { company_id : 1 } )
+
+
+//test clear later  ---------
+
